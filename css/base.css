@@ -1,0 +1,21 @@
+:root {
+    --color-primary: rgb(126, 126, 170);
+    --colo-secundary: rgb(243, 116, 116);
+    --color-bg: rgb(214, 205, 205);
+    --color-text: black;
+    --font-family: arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-bg);
+    color: var(--colo-text)
+}
+
+img {
+    max-width: 100%;
+}
